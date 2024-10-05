@@ -318,15 +318,15 @@ const Navbar = ({ isHome }) => {
       >
         <div className="flex items-center">
           <Link href="/" scroll={false}>
-            <div className="block">
+            <div className="block flex items-center">
               <img
                 src="/Erebrus_logo_wordmark.png"
                 alt="Logo"
-                className="w-48"
+                className="w-16"
               />
+              <span className="text-white ml-2 font-bold">Okto VPN</span> 
             </div>
           </Link>
-          
         </div>
 
         <div className="hidden lg:flex items-center">

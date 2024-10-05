@@ -15,14 +15,14 @@ export const usePeaqWallet = () => {
   const getwallet = () => {
     return Cookies.get("erebrus_wallet");
   };
- 
 
   const onSignMessagepeaq = async (setshowsignbuttonpeaq) => {
     const chainsym = getchainsym();
-    const erebrusWallet =getwallet();
+    const erebrusWallet = getwallet();
 
-    if (isConnected) {
-      if (chainsym == "peaq" && chain?.name == "agung" && erebrusWallet==null  ) {
+    if (isConnected && window.ethereum) {
+      const network = await window.ethereum.request({ method: 'net_version' });
+      if (chainsym == "peaq" && network === "desired_network_id" && erebrusWallet == null) {
         try {
           const REACT_APP_GATEWAY_URL = process.env.NEXT_PUBLIC_GATEWAY_URL;
 
@@ -82,9 +82,8 @@ export const usePeaqWallet = () => {
         }
       } 
       
-    }
-    else {
-      alert(`Switch to ${chain?.name} in your wallet`);
+    } else {
+      alert('Please connect using MetaMask and switch to the correct network.');
     }
   };
  
