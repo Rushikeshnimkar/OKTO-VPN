@@ -16,7 +16,7 @@ import Image from "next/image";
 import SingleSignerTransaction from "../components/transactionFlow/SingleSigner";
 import SaveToWalrusButton from "../components/walrus/SaveToWalrusButton";
 import DownloadFromWalrusButton from "../components/walrus/DownloadFromWalrusButton";
-import FileStorage from "../components/walrus/FileStorage";
+
 const REACT_APP_GATEWAY_URL = process.env.NEXT_PUBLIC_GATEWAY_URL;
 const EREBRUS_GATEWAY_URL = process.env.NEXT_PUBLIC_EREBRUS_BASE_URL;
 const mynetwork = process.env.NEXT_PUBLIC_NETWORK;
@@ -994,9 +994,7 @@ const Subscription = () => {
                   )}
                    </div>
                   <Mintbox/>
-                  <div className="h-auto ">
-                    <FileStorage />
-                  </div>
+                 
                 </div>
               </>
             )}

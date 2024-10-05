@@ -41,18 +41,6 @@ importers:
       '@metaplex-foundation/js':
         specifier: ^0.20.1
         version: 0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10)
-      '@metaplex-foundation/mpl-token-metadata':
-        specifier: ^3.2.1
-        version: 3.2.1(@metaplex-foundation/umi@0.9.2)
-      '@metaplex-foundation/umi-bundle-defaults':
-        specifier: ^0.9.2
-        version: 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(encoding@0.1.13)
-      '@metaplex-foundation/umi-signer-wallet-adapters':
-        specifier: ^0.9.2
-        version: 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@metaplex-foundation/umi-uploader-bundlr':
-        specifier: ^0.9.2
-        version: 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@msafe/aptos-wallet-adapter':
         specifier: ^1.0.14
         version: 1.0.14
@@ -98,9 +86,6 @@ importers:
       '@stripe/react-stripe-js':
         specifier: ^2.4.0
         version: 2.4.0(@stripe/stripe-js@2.4.0)(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
-      '@stripe/stripe-js':
-        specifier: ^2.4.0
-        version: 2.4.0
       '@suiet/wallet-kit':
         specifier: ^0.2.24
         version: 0.2.24(@mysten/sui.js@0.54.1(svelte@4.2.17)(typescript@5.3.3))(@types/react@18.2.47)(react-dom@18.2.0(react@18.2.0))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.2.47)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0)(svelte@4.2.17)(typescript@5.3.3)
@@ -112,10 +97,10 @@ importers:
         version: 0.1.104
       '@thirdweb-dev/react':
         specifier: ^3.16.5
-        version: 3.16.5(4bivtsjukafmsg7xkz6cxrmc5m)
+        version: 3.16.5(jr5ptzbttl243soqjbgmwul56y)
       '@thirdweb-dev/sdk':
         specifier: ^3.6.9
-        version: 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.9.2))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+        version: 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@2.13.0(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@tp-lab/aptos-wallet-adapter':
         specifier: ^1.0.1
         version: 1.0.1
@@ -1181,11 +1166,6 @@ packages:
       aptos:
         optional: true
 
-  '@bundlr-network/client@0.8.9':
-    resolution: {integrity: sha512-SJ7BAt/KhONeFQ0+nbqrw2DUWrsev6y6cmlXt+3x7fPCkw7OJwudtxV/h2nBteZd65NXjqw8yzkmLiLfZ7CCRA==}
-    deprecated: Bundlr is now Irys - please switch to @irys/sdk - this package will remain compatible with Irys for the foreseeable future.
-    hasBin: true
-
   '@chainlink/contracts@0.6.1':
     resolution: {integrity: sha512-EuwijGexttw0UjfrW+HygwhQIrGAbqpf1ue28R55HhWMHBzphEH0PhWm8DQmFfj5OZNy8Io66N4L0nStkZ3QKQ==}
 
@@ -2069,104 +2049,6 @@ packages:
 
   '@metaplex-foundation/mpl-token-metadata@2.13.0':
     resolution: {integrity: sha512-Fl/8I0L9rv4bKTV/RAl5YIbJe9SnQPInKvLz+xR1fEc4/VQkuCn3RPgypfUMEKWmCznzaw4sApDxy6CFS4qmJw==}
-
-  '@metaplex-foundation/mpl-token-metadata@3.2.1':
-    resolution: {integrity: sha512-26W1NhQwDWmLOg/pBRYut7x/vEs/5kFS2sWVEY5/X0f2jJOLhnd4NaZQcq+5u+XZsXvm1jq2AtrRGPNK43oqWQ==}
-    peerDependencies:
-      '@metaplex-foundation/umi': '>= 0.8.2 < 1'
-
-  '@metaplex-foundation/mpl-toolbox@0.9.4':
-    resolution: {integrity: sha512-fd6JxfoLbj/MM8FG2x91KYVy1U6AjBQw4qjt7+Da3trzQaWnSaYHDcYRG/53xqfvZ9qofY1T2t53GXPlD87lnQ==}
-    peerDependencies:
-      '@metaplex-foundation/umi': '>= 0.8.2 < 1'
-
-  '@metaplex-foundation/umi-bundle-defaults@0.9.2':
-    resolution: {integrity: sha512-kV3tfvgvRjVP1p9OFOtH+ibOtN9omVJSwKr0We4/9r45e5LTj+32su0V/rixZUkG1EZzzOYBsxhtIE0kIw/Hrw==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi-downloader-http@0.9.2':
-    resolution: {integrity: sha512-tzPT9hBwenzTzAQg07rmsrqZfgguAXELbcJrsYMoASp5VqWFXYIP00g94KET6XLjWUXH4P1J2zoa6hGennPXHA==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-
-  '@metaplex-foundation/umi-eddsa-web3js@0.9.2':
-    resolution: {integrity: sha512-hhPCxXbYIp4BC4z9gK78sXpWLkNSrfv4ndhF5ruAkdIp7GcRVYKj0QnOUO6lGYGiIkNlw20yoTwOe1CT//OfTQ==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi-http-fetch@0.9.2':
-    resolution: {integrity: sha512-YCZuBu24T9ZzEDe4+w12LEZm/fO9pkyViZufGgASC5NX93814Lvf6Ssjn/hZzjfA7CvZbvLFbmujc6CV3Q/m9Q==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-
-  '@metaplex-foundation/umi-options@0.8.9':
-    resolution: {integrity: sha512-jSQ61sZMPSAk/TXn8v8fPqtz3x8d0/blVZXLLbpVbo2/T5XobiI6/MfmlUosAjAUaQl6bHRF8aIIqZEFkJiy4A==}
-
-  '@metaplex-foundation/umi-program-repository@0.9.2':
-    resolution: {integrity: sha512-g3+FPqXEmYsBa8eETtUE2gb2Oe3mqac0z3/Ur1TvAg5TtIy3mzRzOy/nza+sgzejnfcxcVg835rmpBaxpBnjDA==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-
-  '@metaplex-foundation/umi-public-keys@0.8.9':
-    resolution: {integrity: sha512-CxMzN7dgVGOq9OcNCJe2casKUpJ3RmTVoOvDFyeoTQuK+vkZ1YSSahbqC1iGuHEtKTLSjtWjKvUU6O7zWFTw3Q==}
-
-  '@metaplex-foundation/umi-rpc-chunk-get-accounts@0.9.2':
-    resolution: {integrity: sha512-YRwVf6xH0jPBAUgMhEPi+UbjioAeqTXmjsN2TnmQCPAmHbrHrMRj0rlWYwFLWAgkmoxazYrXP9lqOFRrfOGAEA==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-
-  '@metaplex-foundation/umi-rpc-web3js@0.9.2':
-    resolution: {integrity: sha512-MqcsBz8B4wGl6jxsf2Jo/rAEpYReU9VCSR15QSjhvADHMmdFxCIZCCAgE+gDE2Vuanfl437VhOcP3g5Uw8C16Q==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi-serializer-data-view@0.9.2':
-    resolution: {integrity: sha512-5vGptadJxUxvUcyrwFZxXlEc6Q7AYySBesizCtrBFUY8w8PnF2vzmS45CP1MLySEATNH6T9mD4Rs0tLb87iQyA==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-
-  '@metaplex-foundation/umi-serializers-core@0.8.9':
-    resolution: {integrity: sha512-WT82tkiYJ0Qmscp7uTj1Hz6aWQPETwaKLAENAUN5DeWghkuBKtuxyBKVvEOuoXerJSdhiAk0e8DWA4cxcTTQ/w==}
-
-  '@metaplex-foundation/umi-serializers-encodings@0.8.9':
-    resolution: {integrity: sha512-N3VWLDTJ0bzzMKcJDL08U3FaqRmwlN79FyE4BHj6bbAaJ9LEHjDQ9RJijZyWqTm0jE7I750fU7Ow5EZL38Xi6Q==}
-
-  '@metaplex-foundation/umi-serializers-numbers@0.8.9':
-    resolution: {integrity: sha512-NtBf1fnVNQJHFQjLFzRu2i9GGnigb9hOm/Gfrk628d0q0tRJB7BOM3bs5C61VAs7kJs4yd+pDNVAERJkknQ7Lg==}
-
-  '@metaplex-foundation/umi-serializers@0.9.0':
-    resolution: {integrity: sha512-hAOW9Djl4w4ioKeR4erDZl5IG4iJdP0xA19ZomdaCbMhYAAmG/FEs5khh0uT2mq53/MnzWcXSUPoO8WBN4Q+Vg==}
-
-  '@metaplex-foundation/umi-signer-wallet-adapters@0.9.2':
-    resolution: {integrity: sha512-DFG0ZFocKG8briypSkG9bGUTVsWpAgYugsl2BzTygkGExc4evWfF4Sb1F2C2w9FdrA9ESZM1gpLX9xtx5taOXg==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi-transaction-factory-web3js@0.9.2':
-    resolution: {integrity: sha512-fR1Kf21uylMFd1Smkltmj4jTNxhqSWf416owsJ+T+cvJi2VCOcOwq/3UFzOrpz78fA0RhsajKYKj0HYsRnQI1g==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi-uploader-bundlr@0.9.2':
-    resolution: {integrity: sha512-wmixKqWyEO0lRB2GNvm5XOwi3jEyCtPZ6Oqds6sY5YHYdrn1Cqgd1TcdAuu7+DuojcNFErTjWsaQ1F9QR502QQ==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi-web3js-adapters@0.9.2':
-    resolution: {integrity: sha512-RQqUTtHYY9fmEMnq7s3Hiv/81flGaoI0ZVVoafnFVaQLnxU6QBKxtboRZHk43XtD9CiFh5f9izrMJX7iK7KlOA==}
-    peerDependencies:
-      '@metaplex-foundation/umi': ^0.9.2
-      '@solana/web3.js': ^1.72.0
-
-  '@metaplex-foundation/umi@0.9.2':
-    resolution: {integrity: sha512-9i4Acm4pruQfJcpRrc2EauPBwkfDN0I9QTvJyZocIlKgoZwD6A6wH0PViH1AjOVG5CQCd1YI3tJd5XjYE1ElBw==}
 
   '@mobily/ts-belt@3.13.1':
     resolution: {integrity: sha512-K5KqIhPI/EoCTbA6CGbrenM9s41OouyK8A03fGJJcla/zKucsgLbz8HNbeseoLarRPgyWJsUyCYqFhI7t3Ra9Q==}
@@ -3720,10 +3602,6 @@ packages:
     peerDependencies:
       '@mysten/sui.js': 0.51.2
 
-  '@supercharge/promise-pool@2.4.0':
-    resolution: {integrity: sha512-O9CMipBlq5OObdt1uKJGIzm9cdjpPWfj+a+Zw9EgWKxaMNHKC7EU7X9taj3H0EGQNLOSq2jAcOa3EzxlfHsD6w==}
-    engines: {node: '>=8'}
-
   '@supercharge/promise-pool@3.2.0':
     resolution: {integrity: sha512-pj0cAALblTZBPtMltWOlZTQSLT07jIaFNeM8TWoJD1cQMgDB9mcMlVMoetiB35OzNJpqQ2b+QEtwiR9f20mADg==}
     engines: {node: '>=8'}
@@ -4955,9 +4833,6 @@ packages:
   arbundles@0.10.1:
     resolution: {integrity: sha512-QYFepxessLCirvRkQK9iQmjxjHz+s50lMNGRwZwpyPWLohuf6ISyj1gkFXJHlMT+rNSrsHxb532glHnKbjwu3A==}
 
-  arbundles@0.6.23:
-    resolution: {integrity: sha512-+gr93F3fivN+6dhiImT6BQNaXz4oECPn2GYjCZjS2yEoq7hM78FRvVp6kQyjEdhnuBFQr/q4oS/nkjnQlHdj9Q==}
-
   arconnect@0.4.2:
     resolution: {integrity: sha512-Jkpd4QL3TVqnd3U683gzXmZUVqBUy17DdJDuL/3D9rkysLgX6ymJ2e+sR+xyZF5Rh42CBqDXWNMmCjBXeP7Gbw==}
 
@@ -5112,11 +4987,6 @@ packages:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
 
-  avsc@https://codeload.github.com/Irys-xyz/avsc/tar.gz/a730cc8018b79e114b6a3381bbb57760a24c6cef:
-    resolution: {tarball: https://codeload.github.com/Irys-xyz/avsc/tar.gz/a730cc8018b79e114b6a3381bbb57760a24c6cef}
-    version: 5.4.7
-    engines: {node: '>=0.11'}
-
   axe-core@4.7.0:
     resolution: {integrity: sha512-M0JtH+hlOL5pLQwHOLNYZaXuhqmvS8oExsqB1SBYgA4Dk7u/xx+YdGHXaK5pyUfed5mYXdlYiphWq3G8cRi5JQ==}
     engines: {node: '>=4'}
@@ -5126,9 +4996,6 @@ packages:
 
   axios@0.24.0:
     resolution: {integrity: sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA==}
-
-  axios@0.25.0:
-    resolution: {integrity: sha512-cD8FOb0tRH3uuEe6+evtAbgJtfxr7ly3fQjYcMcuPlgkwVS9xboaVIpcDV+cYQe+yGykgwZCs1pzjntcGa6l5g==}
 
   axios@0.26.1:
     resolution: {integrity: sha512-fPwcX4EvnSHuInCMItEhAGnaSEXRBjtzh9fOtsE6E1G6p7vl7edEeZe11QHf18+6+9gR5PbKV/sGKNaD8YaMeA==}
@@ -5297,9 +5164,6 @@ packages:
 
   boolbase@1.0.0:
     resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
-
-  borsh@0.6.0:
-    resolution: {integrity: sha512-sl5k89ViqsThXQpYa9XDtz1sBl3l1lI313cFUY1HKr+wvMILnb+58xpkqTNrYbelh99dY7K8usxoCusQmqix9Q==}
 
   borsh@0.7.0:
     resolution: {integrity: sha512-CLCsZGIBCFnPtkNnieW/a8wmreDmfUtjU2m9yHrzPXIlNbqVs0AQrSatSG6vdNYUqdc83tkQi2eHfF98ubzQLA==}
@@ -5504,9 +5368,6 @@ packages:
 
   caniuse-lite@1.0.30001615:
     resolution: {integrity: sha512-1IpazM5G3r38meiae0bHRnPhz+CBQ3ZLqbQMtrg+AsTPKAXgW38JNsXkyZ+v8waCsDmPq87lmfun5Q2AGysNEQ==}
-
-  capability@0.2.5:
-    resolution: {integrity: sha512-rsJZYVCgXd08sPqwmaIqjAd5SUTfonV0z/gDJ8D6cN8wQphky1kkAYEqQ+hmDxTw7UihvBfjUVUSY+DBEe44jg==}
 
   carbites@1.0.6:
     resolution: {integrity: sha512-dS9IQvnrb5VIRvSTNz5Ff+mB9d2MFfi5mojtJi7Rlss79VeF190jr0sZdA7eW0CGHotvHkZaWuM6wgfD9PEFRg==}
@@ -5891,27 +5752,14 @@ packages:
   csv-generate@3.4.3:
     resolution: {integrity: sha512-w/T+rqR0vwvHqWs/1ZyMDWtHHSJaN06klRqJXBEpDJaM/+dZkso0OKh1VcuuYvK3XM53KysVNq8Ko/epCK8wOw==}
 
-  csv-generate@4.4.1:
-    resolution: {integrity: sha512-O/einO0v4zPmXaOV+sYqGa02VkST4GP5GLpWBNHEouIU7pF3kpGf3D0kCCvX82ydIY4EKkOK+R8b1BYsRXravg==}
-
   csv-parse@4.16.3:
     resolution: {integrity: sha512-cO1I/zmz4w2dcKHVvpCr7JVRu8/FymG5OEpmvsZYlccYolPBLoVGKUHgNoc4ZGkFeFlWGEDmMyBM+TTqRdW/wg==}
-
-  csv-parse@5.5.6:
-    resolution: {integrity: sha512-uNpm30m/AGSkLxxy7d9yRXpJQFrZzVWLFBkS+6ngPcZkw/5k3L/jjFuj7tVnEpRn+QgmiXr21nDlhCiUK4ij2A==}
 
   csv-stringify@5.6.5:
     resolution: {integrity: sha512-PjiQ659aQ+fUTQqSrd1XEDnOr52jh30RBurfzkscaE2tPaFsDH5wOAHJiw8XAHphRknCwMUE9KRayc4K/NbO8A==}
 
-  csv-stringify@6.5.1:
-    resolution: {integrity: sha512-+9lpZfwpLntpTIEpFbwQyWuW/hmI/eHuJZD1XzeZpfZTqkf1fyvBbBLXTJJMsBuuS11uTShMqPwzx4A6ffXgRQ==}
-
   csv@5.5.3:
     resolution: {integrity: sha512-QTaY0XjjhTQOdguARF0lGKm5/mEq9PD9/VhZZegHDIBq2tQwgNpHc3dneD4mGo2iJs+fTKv5Bp0fZ+BRuY3Z0g==}
-    engines: {node: '>= 0.1.90'}
-
-  csv@6.3.10:
-    resolution: {integrity: sha512-5NYZG4AN2ZUthmNxIudgBEdMPUnbQHu9V4QTzBPqQzUP3KQsFiJo+8HQ0+oVxj1PomIT1/f67VI1QH/hsrZLKA==}
     engines: {node: '>= 0.1.90'}
 
   curve25519-js@0.0.4:
@@ -6295,9 +6143,6 @@ packages:
 
   error-ex@1.3.2:
     resolution: {integrity: sha512-7dFHNmqeFSEt2ZBsCriorKnn3Z2pj+fd9kmI6QoWw4//DL+icEBfc0U7qJCisqrTsKTjw4fNFy2pW9OqStD84g==}
-
-  error-polyfill@0.1.3:
-    resolution: {integrity: sha512-XHJk60ufE+TG/ydwp4lilOog549iiQF2OAPhkk9DdiYWMrltz5yhDz/xnKuenNwP7gy3dsibssO5QpVhkrSzzg==}
 
   error-stack-parser@2.1.4:
     resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==}
@@ -8645,9 +8490,6 @@ packages:
     resolution: {integrity: sha512-zIdGUrPRFTUELUvr3Gmc7KZ2Sw/h1PiVM0Af/oHB6zgnV1ikqSfRk+TOufi79aHYCW3NiOXmr1BP5nWbzojLaA==}
     hasBin: true
 
-  near-api-js@0.44.2:
-    resolution: {integrity: sha512-eMnc4V+geggapEUa3nU2p8HSHn/njtloI4P2mceHQWO8vDE1NGpnAw8FuTBrLmXSgIv9m6oocgFc9t3VNf5zwg==}
-
   near-hd-key@1.2.1:
     resolution: {integrity: sha512-SIrthcL5Wc0sps+2e1xGj3zceEa68TgNZDLuCx0daxmfTP7sFTB3/mtE2pYhlFsCxWoMn+JfID5E1NlzvvbRJg==}
 
@@ -8793,9 +8635,6 @@ packages:
   number-to-bn@1.7.0:
     resolution: {integrity: sha512-wsJ9gfSz1/s4ZsJN01lyonwuxA1tml6X1yBDnfpMglypcBRFZZkus26EdPSlqS5GJfYddVZa22p3VNb3z5m5Ig==}
     engines: {node: '>=6.5.0', npm: '>=3'}
-
-  o3@1.0.3:
-    resolution: {integrity: sha512-f+4n+vC6s4ysy7YO7O2gslWZBUu8Qj2i2OUJOvjRxQva7jVjYjB29jrr9NCjmxZQR0gzrOcv1RnqoYOeMs5VRQ==}
 
   ob1@0.80.9:
     resolution: {integrity: sha512-v9yOxowkZbxWhKOaaTyLjIm1aLy4ebMNcSn4NYJKOAI/Qv+SkfEfszpLr2GIxsccmb2Y2HA9qtsqiIJ80ucpVA==}
@@ -10495,9 +10334,6 @@ packages:
   stream-transform@2.1.3:
     resolution: {integrity: sha512-9GHUiM5hMiCi6Y03jD2ARC1ettBXkQBoQAe7nJsPknnI0ow10aXjTnew8QtYQmLjzn974BnmWEAJgCY6ZP1DeQ==}
 
-  stream-transform@3.3.2:
-    resolution: {integrity: sha512-v64PUnPy9Qw94NGuaEMo+9RHQe4jTBYf+NkTtqkCgeuiNo8NlL0LtLR7fkKWNVFtp3RhIm5Dlxkgm5uz7TDimQ==}
-
   streaming-iterables@6.2.0:
     resolution: {integrity: sha512-3AYC8oB60WyD1ic7uHmN/vm2oRGzRnQ3XFBl/bFMDi1q1+nc5/vjMmiE4vroIya3jG59t87VpyAj/iXYxyw9AA==}
     engines: {node: '>=10'}
@@ -11040,9 +10876,6 @@ packages:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
-
-  u3@0.1.1:
-    resolution: {integrity: sha512-+J5D5ir763y+Am/QY6hXNRlwljIeRMZMGs0cT6qqZVVzzT3X3nFPXVyPOFRMOR4kupB0T8JnCdpWdp6Q/iXn3w==}
 
   ua-parser-js@1.0.37:
     resolution: {integrity: sha512-bhTyI94tZofjo+Dn8SN6Zv8nBDvyXTymAdM3LDI/0IboIUwTu1rEhW7v2TfiVsoYWgkQ4kOVqnI8APUFbIQIFQ==}
@@ -12970,33 +12803,6 @@ snapshots:
     transitivePeerDependencies:
       - bufferutil
       - debug
-      - utf-8-validate
-
-  '@bundlr-network/client@0.8.9(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@solana/wallet-adapter-base': 0.9.23(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@supercharge/promise-pool': 2.4.0
-      algosdk: 1.24.1(encoding@0.1.13)
-      arbundles: 0.6.23(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      arweave: 1.15.1
-      async-retry: 1.3.3
-      axios: 0.25.0
-      base64url: 3.0.1
-      bignumber.js: 9.1.2
-      bs58: 4.0.1
-      commander: 8.3.0
-      csv: 6.3.10
-      ethers: 5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      inquirer: 8.2.6
-      js-sha256: 0.9.0
-      mime-types: 2.1.35
-      near-api-js: 0.44.2(encoding@0.1.13)
-      near-seed-phrase: 0.2.1
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - encoding
       - utf-8-validate
 
   '@chainlink/contracts@0.6.1(bufferutil@4.0.8)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)':
@@ -15027,128 +14833,6 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.9.2)':
-    dependencies:
-      '@metaplex-foundation/mpl-toolbox': 0.9.4(@metaplex-foundation/umi@0.9.2)
-      '@metaplex-foundation/umi': 0.9.2
-
-  '@metaplex-foundation/mpl-toolbox@0.9.4(@metaplex-foundation/umi@0.9.2)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-
-  '@metaplex-foundation/umi-bundle-defaults@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(encoding@0.1.13)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      '@metaplex-foundation/umi-downloader-http': 0.9.2(@metaplex-foundation/umi@0.9.2)
-      '@metaplex-foundation/umi-eddsa-web3js': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@metaplex-foundation/umi-http-fetch': 0.9.2(@metaplex-foundation/umi@0.9.2)(encoding@0.1.13)
-      '@metaplex-foundation/umi-program-repository': 0.9.2(@metaplex-foundation/umi@0.9.2)
-      '@metaplex-foundation/umi-rpc-chunk-get-accounts': 0.9.2(@metaplex-foundation/umi@0.9.2)
-      '@metaplex-foundation/umi-rpc-web3js': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@metaplex-foundation/umi-serializer-data-view': 0.9.2(@metaplex-foundation/umi@0.9.2)
-      '@metaplex-foundation/umi-transaction-factory-web3js': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - encoding
-
-  '@metaplex-foundation/umi-downloader-http@0.9.2(@metaplex-foundation/umi@0.9.2)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-
-  '@metaplex-foundation/umi-eddsa-web3js@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@noble/curves': 1.6.0
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-
-  '@metaplex-foundation/umi-http-fetch@0.9.2(@metaplex-foundation/umi@0.9.2)(encoding@0.1.13)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      node-fetch: 2.7.0(encoding@0.1.13)
-    transitivePeerDependencies:
-      - encoding
-
-  '@metaplex-foundation/umi-options@0.8.9': {}
-
-  '@metaplex-foundation/umi-program-repository@0.9.2(@metaplex-foundation/umi@0.9.2)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-
-  '@metaplex-foundation/umi-public-keys@0.8.9':
-    dependencies:
-      '@metaplex-foundation/umi-serializers-encodings': 0.8.9
-
-  '@metaplex-foundation/umi-rpc-chunk-get-accounts@0.9.2(@metaplex-foundation/umi@0.9.2)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-
-  '@metaplex-foundation/umi-rpc-web3js@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-
-  '@metaplex-foundation/umi-serializer-data-view@0.9.2(@metaplex-foundation/umi@0.9.2)':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-
-  '@metaplex-foundation/umi-serializers-core@0.8.9': {}
-
-  '@metaplex-foundation/umi-serializers-encodings@0.8.9':
-    dependencies:
-      '@metaplex-foundation/umi-serializers-core': 0.8.9
-
-  '@metaplex-foundation/umi-serializers-numbers@0.8.9':
-    dependencies:
-      '@metaplex-foundation/umi-serializers-core': 0.8.9
-
-  '@metaplex-foundation/umi-serializers@0.9.0':
-    dependencies:
-      '@metaplex-foundation/umi-options': 0.8.9
-      '@metaplex-foundation/umi-public-keys': 0.8.9
-      '@metaplex-foundation/umi-serializers-core': 0.8.9
-      '@metaplex-foundation/umi-serializers-encodings': 0.8.9
-      '@metaplex-foundation/umi-serializers-numbers': 0.8.9
-
-  '@metaplex-foundation/umi-signer-wallet-adapters@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-
-  '@metaplex-foundation/umi-transaction-factory-web3js@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-
-  '@metaplex-foundation/umi-uploader-bundlr@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@bundlr-network/client': 0.8.9(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@metaplex-foundation/umi': 0.9.2
-      '@metaplex-foundation/umi-web3js-adapters': 0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      bignumber.js: 9.1.2
-      buffer: 6.0.3
-    transitivePeerDependencies:
-      - bufferutil
-      - debug
-      - encoding
-      - utf-8-validate
-
-  '@metaplex-foundation/umi-web3js-adapters@0.9.2(@metaplex-foundation/umi@0.9.2)(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))':
-    dependencies:
-      '@metaplex-foundation/umi': 0.9.2
-      '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      buffer: 6.0.3
-
-  '@metaplex-foundation/umi@0.9.2':
-    dependencies:
-      '@metaplex-foundation/umi-options': 0.8.9
-      '@metaplex-foundation/umi-public-keys': 0.8.9
-      '@metaplex-foundation/umi-serializers': 0.9.0
-
   '@mobily/ts-belt@3.13.1': {}
 
   '@motionone/animation@10.17.0':
@@ -16110,11 +15794,13 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.24.5
 
-  '@randlabs/communication-bridge@1.0.1': {}
+  '@randlabs/communication-bridge@1.0.1':
+    optional: true
 
   '@randlabs/myalgo-connect@1.4.2':
     dependencies:
       '@randlabs/communication-bridge': 1.0.1
+    optional: true
 
   '@rc-component/async-validator@5.0.4':
     dependencies:
@@ -17444,8 +17130,6 @@ snapshots:
       - svelte
       - typescript
 
-  '@supercharge/promise-pool@2.4.0': {}
-
   '@supercharge/promise-pool@3.2.0': {}
 
   '@svgr/babel-plugin-add-jsx-attribute@6.5.1(@babel/core@7.24.5)':
@@ -17583,9 +17267,9 @@ snapshots:
 
   '@tanstack/virtual-core@3.10.8': {}
 
-  '@thirdweb-dev/auth@3.2.48(kishzsg6b4mg6a5o5eg2xes5be)':
+  '@thirdweb-dev/auth@3.2.48(puhn5hdk6ddkeyrg45453kn34u)':
     dependencies:
-      '@thirdweb-dev/wallets': 1.3.5(up4yldcgnccb5b7uwkngwz5ppu)
+      '@thirdweb-dev/wallets': 1.3.5(wkiqwg4j67vmrbfrshlqvu3bzm)
       cookie: 0.5.0
       uuid: 9.0.1
       zod: 3.22.4
@@ -17661,15 +17345,15 @@ snapshots:
 
   '@thirdweb-dev/generated-abis@0.0.1': {}
 
-  '@thirdweb-dev/react-core@3.16.5(lbnvdqheezavtbeckkkcc4irie)':
+  '@thirdweb-dev/react-core@3.16.5(hfpbimkjhnazn6t4dfr2qnuy5e)':
     dependencies:
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0(react@18.2.0))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.2.47)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0)
-      '@thirdweb-dev/auth': 3.2.48(kishzsg6b4mg6a5o5eg2xes5be)
+      '@thirdweb-dev/auth': 3.2.48(puhn5hdk6ddkeyrg45453kn34u)
       '@thirdweb-dev/chains': 0.1.54
       '@thirdweb-dev/generated-abis': 0.0.1
-      '@thirdweb-dev/sdk': 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.9.2))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+      '@thirdweb-dev/sdk': 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@2.13.0(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@thirdweb-dev/storage': 1.2.11(encoding@0.1.13)
-      '@thirdweb-dev/wallets': 1.3.5(up4yldcgnccb5b7uwkngwz5ppu)
+      '@thirdweb-dev/wallets': 1.3.5(wkiqwg4j67vmrbfrshlqvu3bzm)
       ethers: 5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       mime: 3.0.0
       react: 18.2.0
@@ -17721,7 +17405,7 @@ snapshots:
       - utf-8-validate
       - zksync-web3
 
-  '@thirdweb-dev/react@3.16.5(4bivtsjukafmsg7xkz6cxrmc5m)':
+  '@thirdweb-dev/react@3.16.5(jr5ptzbttl243soqjbgmwul56y)':
     dependencies:
       '@emotion/react': 11.11.3(@types/react@18.2.47)(react@18.2.0)
       '@emotion/styled': 11.11.0(@emotion/react@11.11.3(@types/react@18.2.47)(react@18.2.0))(@types/react@18.2.47)(react@18.2.0)
@@ -17736,9 +17420,9 @@ snapshots:
       '@react-icons/all-files': 4.1.0(react@18.2.0)
       '@tanstack/react-query': 4.36.1(react-dom@18.2.0(react@18.2.0))(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.2.47)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.2.0)(utf-8-validate@5.0.10))(react@18.2.0)
       '@thirdweb-dev/chains': 0.1.54
-      '@thirdweb-dev/react-core': 3.16.5(lbnvdqheezavtbeckkkcc4irie)
-      '@thirdweb-dev/sdk': 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.9.2))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
-      '@thirdweb-dev/wallets': 1.3.5(up4yldcgnccb5b7uwkngwz5ppu)
+      '@thirdweb-dev/react-core': 3.16.5(hfpbimkjhnazn6t4dfr2qnuy5e)
+      '@thirdweb-dev/sdk': 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@2.13.0(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+      '@thirdweb-dev/wallets': 1.3.5(wkiqwg4j67vmrbfrshlqvu3bzm)
       buffer: 6.0.3
       copy-to-clipboard: 3.3.3
       detect-browser: 5.3.0
@@ -17798,7 +17482,7 @@ snapshots:
       - utf-8-validate
       - zksync-web3
 
-  '@thirdweb-dev/sdk@3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.9.2))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))':
+  '@thirdweb-dev/sdk@3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@2.13.0(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))':
     dependencies:
       '@thirdweb-dev/chains': 0.1.54
       '@thirdweb-dev/contracts-js': 1.3.13(bufferutil@4.0.8)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)
@@ -17820,7 +17504,7 @@ snapshots:
       zod: 3.22.4
     optionalDependencies:
       '@metaplex-foundation/js': 0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10)
-      '@metaplex-foundation/mpl-token-metadata': 3.2.1(@metaplex-foundation/umi@0.9.2)
+      '@metaplex-foundation/mpl-token-metadata': 2.13.0(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10)
       '@solana/spl-token': 0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       zksync-web3: 0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))
@@ -17839,7 +17523,7 @@ snapshots:
     transitivePeerDependencies:
       - encoding
 
-  '@thirdweb-dev/wallets@1.3.5(up4yldcgnccb5b7uwkngwz5ppu)':
+  '@thirdweb-dev/wallets@1.3.5(wkiqwg4j67vmrbfrshlqvu3bzm)':
     dependencies:
       '@account-abstraction/contracts': 0.5.0
       '@account-abstraction/sdk': 0.5.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
@@ -17856,7 +17540,7 @@ snapshots:
       '@safe-global/safe-ethers-lib': 1.9.4(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@thirdweb-dev/chains': 0.1.54
       '@thirdweb-dev/contracts-js': 1.3.13(bufferutil@4.0.8)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(utf-8-validate@5.0.10)
-      '@thirdweb-dev/sdk': 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@3.2.1(@metaplex-foundation/umi@0.9.2))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
+      '@thirdweb-dev/sdk': 3.10.67(@metaplex-foundation/js@0.20.1(arweave@1.15.1)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@metaplex-foundation/mpl-token-metadata@2.13.0(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/spl-token@0.3.11(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.3.3)(utf-8-validate@5.0.10))(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10))(typescript@5.3.3)(utf-8-validate@5.0.10)(zksync-web3@0.14.4(ethers@5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)))
       '@walletconnect/core': 2.11.0(@react-native-async-storage/async-storage@1.23.1(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.2.47)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.2.0)(utf-8-validate@5.0.10)))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@walletconnect/ethereum-provider': 2.11.0(@react-native-async-storage/async-storage@1.23.1(react-native@0.74.1(@babel/core@7.24.5)(@babel/preset-env@7.24.5(@babel/core@7.24.5))(@types/react@18.2.47)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.2.0)(utf-8-validate@5.0.10)))(@types/react@18.2.47)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.2.0)(utf-8-validate@5.0.10)
       '@walletconnect/jsonrpc-utils': 1.0.8
@@ -19930,34 +19614,10 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  arbundles@0.6.23(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10):
-    dependencies:
-      '@noble/ed25519': 1.7.3
-      '@randlabs/myalgo-connect': 1.4.2
-      '@solana/wallet-adapter-base': 0.9.23(@solana/web3.js@1.95.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
-      algosdk: 1.24.1(encoding@0.1.13)
-      arweave: 1.15.1
-      arweave-stream-tx: 1.2.2(arweave@1.15.1)
-      avsc: https://codeload.github.com/Irys-xyz/avsc/tar.gz/a730cc8018b79e114b6a3381bbb57760a24c6cef
-      axios: 0.21.4
-      base64url: 3.0.1
-      bs58: 4.0.1
-      ethers: 5.7.2(bufferutil@4.0.8)(utf-8-validate@5.0.10)
-      keccak: 3.0.4
-      multistream: 4.1.0
-      process: 0.11.10
-      secp256k1: 4.0.3
-      tmp-promise: 3.0.3
-    transitivePeerDependencies:
-      - '@solana/web3.js'
-      - bufferutil
-      - debug
-      - encoding
-      - utf-8-validate
-
   arconnect@0.4.2:
     dependencies:
       arweave: 1.15.1
+    optional: true
 
   arg@5.0.2: {}
 
@@ -20058,6 +19718,7 @@ snapshots:
     dependencies:
       arweave: 1.15.1
       exponential-backoff: 3.1.1
+    optional: true
 
   arweave@1.15.1:
     dependencies:
@@ -20065,6 +19726,7 @@ snapshots:
       asn1.js: 5.4.1
       base64-js: 1.5.1
       bignumber.js: 9.1.2
+    optional: true
 
   asap@2.0.6: {}
 
@@ -20150,8 +19812,6 @@ snapshots:
     dependencies:
       possible-typed-array-names: 1.0.0
 
-  avsc@https://codeload.github.com/Irys-xyz/avsc/tar.gz/a730cc8018b79e114b6a3381bbb57760a24c6cef: {}
-
   axe-core@4.7.0: {}
 
   axios@0.21.4:
@@ -20161,12 +19821,6 @@ snapshots:
       - debug
 
   axios@0.24.0:
-    dependencies:
-      follow-redirects: 1.15.5(debug@4.3.7)
-    transitivePeerDependencies:
-      - debug
-
-  axios@0.25.0:
     dependencies:
       follow-redirects: 1.15.5(debug@4.3.7)
     transitivePeerDependencies:
@@ -20399,12 +20053,6 @@ snapshots:
       - supports-color
 
   boolbase@1.0.0: {}
-
-  borsh@0.6.0:
-    dependencies:
-      bn.js: 5.2.1
-      bs58: 4.0.1
-      text-encoding-utf-8: 1.0.2
 
   borsh@0.7.0:
     dependencies:
@@ -20666,8 +20314,6 @@ snapshots:
   caniuse-lite@1.0.30001579: {}
 
   caniuse-lite@1.0.30001615: {}
-
-  capability@0.2.5: {}
 
   carbites@1.0.6:
     dependencies:
@@ -21101,15 +20747,9 @@ snapshots:
 
   csv-generate@3.4.3: {}
 
-  csv-generate@4.4.1: {}
-
   csv-parse@4.16.3: {}
 
-  csv-parse@5.5.6: {}
-
   csv-stringify@5.6.5: {}
-
-  csv-stringify@6.5.1: {}
 
   csv@5.5.3:
     dependencies:
@@ -21117,13 +20757,6 @@ snapshots:
       csv-parse: 4.16.3
       csv-stringify: 5.6.5
       stream-transform: 2.1.3
-
-  csv@6.3.10:
-    dependencies:
-      csv-generate: 4.4.1
-      csv-parse: 5.5.6
-      csv-stringify: 6.5.1
-      stream-transform: 3.3.2
 
   curve25519-js@0.0.4: {}
 
@@ -21487,12 +21120,6 @@ snapshots:
   error-ex@1.3.2:
     dependencies:
       is-arrayish: 0.2.1
-
-  error-polyfill@0.1.3:
-    dependencies:
-      capability: 0.2.5
-      o3: 1.0.3
-      u3: 0.1.1
 
   error-stack-parser@2.1.4:
     dependencies:
@@ -22293,7 +21920,8 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  exponential-backoff@3.1.1: {}
+  exponential-backoff@3.1.1:
+    optional: true
 
   express@4.18.2:
     dependencies:
@@ -24653,6 +24281,7 @@ snapshots:
     dependencies:
       once: 1.4.0
       readable-stream: 3.6.2
+    optional: true
 
   murmurhash-js@1.0.0: {}
 
@@ -24695,22 +24324,6 @@ snapshots:
 
   ncp@2.0.0:
     optional: true
-
-  near-api-js@0.44.2(encoding@0.1.13):
-    dependencies:
-      bn.js: 5.2.0
-      borsh: 0.6.0
-      bs58: 4.0.1
-      depd: 2.0.0
-      error-polyfill: 0.1.3
-      http-errors: 1.8.1
-      js-sha256: 0.9.0
-      mustache: 4.2.0
-      node-fetch: 2.7.0(encoding@0.1.13)
-      text-encoding-utf-8: 1.0.2
-      tweetnacl: 1.0.3
-    transitivePeerDependencies:
-      - encoding
 
   near-hd-key@1.2.1:
     dependencies:
@@ -24895,10 +24508,6 @@ snapshots:
     dependencies:
       bn.js: 4.11.6
       strip-hex-prefix: 1.0.0
-
-  o3@1.0.3:
-    dependencies:
-      capability: 0.2.5
 
   ob1@0.80.9: {}
 
@@ -26884,8 +26493,6 @@ snapshots:
     dependencies:
       mixme: 0.5.10
 
-  stream-transform@3.3.2: {}
-
   streaming-iterables@6.2.0: {}
 
   streamsearch@1.1.0: {}
@@ -27316,6 +26923,7 @@ snapshots:
   tmp-promise@3.0.3:
     dependencies:
       tmp: 0.2.1
+    optional: true
 
   tmp@0.0.33:
     dependencies:
@@ -27519,8 +27127,6 @@ snapshots:
   typescript@4.9.5: {}
 
   typescript@5.3.3: {}
-
-  u3@0.1.1: {}
 
   ua-parser-js@1.0.37: {}
 
