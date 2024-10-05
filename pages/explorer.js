@@ -53,7 +53,7 @@ const Explorer = () => {
           >
             Decentralized Access with 
             <br />
-            Erebrus ÐVPN
+            OKTO ÐVPN
           </motion.h1>
           <motion.h1
             initial={{ y: 100, opacity: 0 }}
@@ -88,11 +88,11 @@ const Explorer = () => {
 
       <div className="pt-16 px-4 lg:px-20 bg-gradient-to-b from-[#20253A] to-[#20253A]">
         <div className="text-2xl font-semibold text-gray-300 mb-8">
-          Erebrus Decentralized VPN (ÐVPN) Network Nodes Overview
+         OKTO Decentralized VPN (ÐVPN) Network Nodes Overview
         </div>
         <div className="text-white">
           <p>
-            Explore the Erebrus decentralized VPN network with our interactive map. View detailed information on active nodes, including their location, network performance, and status. This map provides real-time insights into the global distribution and operation of our secure and private VPN infrastructure.
+            Explore the OKTO decentralized VPN network with our interactive map. View detailed information on active nodes, including their location, network performance, and status. This map provides real-time insights into the global distribution and operation of our secure and private VPN infrastructure.
           </p>
         </div>
       </div>
